@@ -7,21 +7,21 @@ This repository contains a sample implementation of an *external agent web servi
 * A bash  compatible environment
 
 ## Generating the TLS certificates
-The sample application requires TLS certificates to run. A helper script has been included to generate the needed certificates in the `certs.sh` file. To generate these certificates, navigate to `sample-application/certs`, rename `.env_example` to `.env` and then run the `certs.sh` helper script. 
+The sample application requires TLS certificates to run. A helper script has been included to generate the needed certificates in the `certs.sh` file. To generate these certificates, navigate to `sample-application/certs`, create the default configuration file by copying `.env_example` to `.env` and then run the `certs.sh` helper script: 
 
 ```bash
 cd sample-application/certs/
-mv .env_example .env
+cp .env_example .env
 bash certs.sh
 ```
 
-The created `.env` file contains the configuration options used during TLS certificate generation. Refer to the [developer guide]() for more information on using and configuring TLS certificates. 
+The created `.env` file contains the default configuration options used during TLS certificate generation. Refer to the [developer guide]() for more information on using and configuring TLS certificates. 
 ## Running the sample application 
-After generating the sample certificates, navigate to the `sample-application/` directory and create the `.env` file from the sample provided by renaming it:
+After generating the sample certificates, navigate to the `sample-application/` directory and create the default configuration file by copying `.env_example` to `.env`:
 
 ```bash 
 cd sample-application
-mv .env_example .env
+cp .env_example .env
 ```
 
 The `.env` file contains the configuration options used by the sample application. 
