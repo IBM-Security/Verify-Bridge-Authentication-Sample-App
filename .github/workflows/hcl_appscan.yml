@@ -31,6 +31,6 @@ jobs:
           asoc_secret: ${{ env.ASOC_SECRET }}
           publish_on_merge: true
           application_id: 30a2d6ab-e765-4931-b3fa-15825295e261
-          issue_status: "fixed"
+          issue_status: "inprogress"
           scan_base_name: "CodeSweep"
           personal_scan: true
