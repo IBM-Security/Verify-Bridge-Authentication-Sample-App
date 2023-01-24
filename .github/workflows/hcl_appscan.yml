@@ -33,3 +33,4 @@ jobs:
           application_id: 30a2d6ab-e765-4931-b3fa-15825295e261
           issue_status: "passed"
           scan_base_name: "CodeSweep"
+          personal_scan: true
