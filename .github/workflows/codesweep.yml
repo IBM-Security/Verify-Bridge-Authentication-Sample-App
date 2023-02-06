@@ -27,4 +27,4 @@ jobs:
           asoc_key: ${{ env.ASOC_KEY}}
           asoc_secret: ${{ env.ASOC_SECRET }}
           publish_on_merge: true
-          application_id: c903e11b-6891-407b-83da-c0e5f892ba80
+          application_id: 30a2d6ab-e765-4931-b3fa-15825295e261
