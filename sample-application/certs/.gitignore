@@ -1,0 +1,5 @@
+*
+!.gitignore
+!certs.sh
+!cleanup.sh
+!.env_example
