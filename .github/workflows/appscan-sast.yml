@@ -2,6 +2,9 @@ name: "HCL AppScan SAST"
 on:
   workflow_dispatch
 
+  schedule:
+    - cron: "0 0 * * *"
+
 env: 
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
