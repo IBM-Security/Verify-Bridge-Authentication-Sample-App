@@ -3,7 +3,7 @@ on:
   workflow_dispatch
 
 env: 
-  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   scan:
@@ -16,6 +16,6 @@ jobs:
       - name: Run AppScan SAST scan
         uses: HCL-TECH-SOFTWARE/appscan-sast-action@v1.0.2
         with:
-          asoc_key: ${{secrets.ASOC_KEY}}
-          asoc_secret: ${{secrets.ASOC_SECRET}}
+          asoc_key: ${{ secrets.ASOC_KEY2 }}
+          asoc_secret: ${{ secrets.ASOC_SECRET2 }}
           application_id: 30a2d6ab-e765-4931-b3fa-15825295e261
