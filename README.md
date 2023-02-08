@@ -1,4 +1,4 @@
-[1]: https://docs.verify.ibm.com/verify/v2.0/docs/developing-external-agent-ws
+[1]: https://docs.verify.ibm.com/verify/docs/developing-external-agent-ws
 # Verify Bridge for Authentication Sample App
 This repository contains a sample implementation of an *external agent web service* that can be used in conjunction with the [IBM Verify Bridge](https://www.ibm.com/docs/en/security-verify?topic=integrations-security-verify-bridge). This sample application is intended for use as a reference for developers wishing to implement their own external agent web service. Please refer to the [developer guide][1] for comprehensive details on developing an external agent web service. 
 
