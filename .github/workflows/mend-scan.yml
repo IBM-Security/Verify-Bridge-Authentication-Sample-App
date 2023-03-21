@@ -26,8 +26,8 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v2
         with:
-          java-version: 8
-          distribution: 'zulu'
+          java-version: 17
+          distribution: 'microsoft'
           
       - name: Download the mend scan jar
         run: |
